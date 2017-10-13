@@ -2,16 +2,17 @@
     <div class="head">
         <nav class="navbar">
         <div class="navbar-brand">
-            <a class="navbar-item" href="http://bulma.io">
+            <a class="navbar-item" href="">
+                <img src="../assets/bulma-logos.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
             </a>
-
-            <div class="navbar-burger">
+            <!-- <div class="navbar-burger">
             <span></span>
             <span></span>
             <span></span>
-            </div>
+            </div> -->
         </div>
         </nav>
+        <hr class="navbar-divider">
     </div>    
 </template>
 

@@ -13,7 +13,7 @@
         </a>
       </nav>
     </div>
-    <div class="column">
+    <div class="column is-three-quarters">
       <nav class="panel">
         <p class="panel-heading">
           {{ this.key }} &nbsp
@@ -164,6 +164,9 @@ export default {
 .column {
   height:100vh;
   text-align: left;
+}
+.content {
+  max-width: 100vw;
 }
 label {
   text-align: left;
