@@ -16,5 +16,14 @@ new Vue({
   VueEditor,
   VueFire,
   template: '<App/>',
-  components: { App }
+  components: { App },
+  ready: () => {
+    const vm = this
+    window.addEventListener('keyup', (event) => {
+      // If down arrow was pressed...
+      if (event.keyCode === 32) {
+        vm.$broadcast('space-pressed')
+      }
+    })
+  }
 })
