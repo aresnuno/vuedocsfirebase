@@ -39,7 +39,11 @@
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.0",
     "cssnano": "^3.10.0",
+<<<<<<< HEAD
     "eslint": "3.8.0",
+=======
+    "eslint": ">=4.18.2",
+>>>>>>> d7ff0a22df93d6eda311b085d8fcbc4798d3b436
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
     "eslint-plugin-html": "^3.0.0",
